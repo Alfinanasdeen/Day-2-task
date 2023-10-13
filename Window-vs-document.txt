@@ -1,0 +1,41 @@
+Q1.Write a blog on the difference between document and window object
+
+INTRODUCTION:
+ the Document and Window objects are fundamental entities that play crucial roles in creating dynamic and interactive web pages.
+ These objects are part of the Document Object Model (DOM), a programming interface for HTML documents. While they may seem similar, 
+ they serve distinct purposes and have different properties and methods. In this blog describe the differences between the Document and Window objects.
+
+DOCUMENT OBJECT:
+ The Document object represents the entire web page or document. It serves as a container for all the content displayed in the browser, including text, 
+ images, forms, and more. Essentially, the Document object allows developers to access and manipulate the content and structure of a webpage.
+
+Key Characteristics of the Document Object:
+
+ i.Represents the Web Page Structure:
+   The Document object acts as a hierarchical representation of the web page's structure, including elements like HTML, head, body, and their respective child elements.
+
+ ii.Provides Access to Document Content:
+    Developers can use the Document object to access and modify the content within the HTML document. This includes reading and updating text, attributes, styles, and event handling.
+
+ iii.Methods for Document Manipulation:
+    The Document object provides methods for creating, modifying, and removing elements and nodes in the document, allowing developers to dynamically change the webpage based on user 
+    interactions or other events.
+
+WINDOW OBLECT:
+ The Window object represents the browser window that contains the document. It serves as a global object in the browser's JavaScript environment and provides 
+ functionalities beyond the document-related operations.
+
+Key Characteristics of the Window Object:
+ i.Represents the Browser Window:
+   The Window object encapsulates the entire browser window, including tabs, frames, and pop-ups. It provides access to the window's properties, methods, and events.
+
+ ii.Global Object in the Browser Environment:
+   The Window object is the global object in the browser, meaning it is the top-level object accessible from any JavaScript code running in the browser environment. 
+   Global variables and functions are attached to this object.
+
+ iii.Manages Window-Related Operations:
+    The Window object enables operations related to the browser window, such as opening and closing new windows or tabs, navigating to URLs, setting timeouts, and handling events.
+ 
+CONCLUTION:
+ The Document object represents the structure and content of a web page, allowing developers to access and manipulate the document's elements and properties. 
+ On the other hand, the Window object represents the browser window and provides functionalities for managing the window, opening new windows, handling events, and more. 
